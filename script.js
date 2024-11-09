@@ -13,7 +13,7 @@ const generateRandomNumber = () => {
 const randomNumber = generateRandomNumber();
 
 const disabledInput = () => {
-  document.querySelector("input[type=text]").setAttribute("disabled", "");
+  document.querySelector("button").setAttribute("disabled", "");
 };
 
 form.addEventListener("submit", (e) => {
