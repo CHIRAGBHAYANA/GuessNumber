@@ -30,7 +30,7 @@ form.addEventListener("submit", (e) => {
     result.innerText = `You Guess the Wrong Number ${numberEntered}`;
     result.style.color = "red";
   }
-  counter.children[0].innerText = count--;
+  counter.children[0].innerText = --count;
   const prevNum = document.createElement("span");
   guesses.map((guess) => {
     prevGuesses.appendChild(prevNum);
